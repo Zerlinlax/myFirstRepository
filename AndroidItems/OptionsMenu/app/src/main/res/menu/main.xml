@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/text_sizeSet"
+        android:title="@string/text_size"
+        android:orderInCategory="1"
+        >
+        <menu>
+            <item
+                android:id="@+id/text_first"
+                android:title="first"
+                android:orderInCategory="2"
+                >
+
+            </item>
+
+            <item
+                android:id="@+id/text_second"
+                android:title="second"
+                android:orderInCategory="1"
+                >
+
+            </item>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/text_colorSet"
+        android:title="@string/text_color"
+        android:orderInCategory="3"
+        >
+
+    </item>
+
+    <item
+        android:id="@+id/text_styleSet"
+        android:title="@string/text_style"
+        android:orderInCategory="2"
+    >
+
+    </item>
+</menu>

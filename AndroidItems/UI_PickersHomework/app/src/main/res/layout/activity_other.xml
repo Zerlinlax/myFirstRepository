@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/button_pick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开始选菜"
+        android:textAllCaps="false"
+        android:textSize="50dp" />
+
+    <Button
+        android:id="@+id/buttonPanel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="连接WiFi"
+        android:textAllCaps="false"
+        android:textSize="50dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="电话:13667165813"
+        android:autoLink="phone"
+        android:drawableTop="@drawable/ic_launcher_background"/>
+
+    
+
+
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zerlin.buttontest.MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="四个button由四种不同方式的监听器实现"
+        />
+
+    <Button
+        android:id="@+id/buttonPanel01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="按钮1"
+        android:background="@color/colorAccent"/>
+
+    <Button
+        android:id="@+id/buttonPanel02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="按钮2"/>
+
+    <Button
+        android:id="@+id/buttonPanel03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="按钮3"/>
+
+    <Button
+        android:id="@+id/buttonPanel04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="按钮4"
+        android:onClick="myButtonClick"/>
+
+    <Button
+        android:id="@+id/buttonPanel05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="按钮5"/>
+
+    <Button
+        android:id="@+id/buttonPanel06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="按钮6"/>
+
+    <Button
+        android:id="@+id/buttonPanel07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="按钮7" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/girl"/>
+
+</LinearLayout>

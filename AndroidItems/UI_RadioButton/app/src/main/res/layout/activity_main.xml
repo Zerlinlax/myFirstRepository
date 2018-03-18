@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.zerlin.ui_radiobutton.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.您的性别:"
+        android:textSize="20dp"
+        android:layout_marginRight="20dp"
+         />
+
+    <RadioGroup
+        android:id="@+id/radio_g"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <RadioButton
+            android:id="@+id/radio_b1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="男"
+            android:layout_weight="1"
+            />
+
+        <RadioButton
+            android:id="@+id/radio_b2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="女"
+            android:layout_weight="1"
+            />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2.您今天开心吗:"
+        android:textSize="20dp"/>
+
+    <ImageView
+        android:id="@+id/image_v"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/happy"/>
+
+    <ToggleButton
+        android:id="@+id/toggle_b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:textOn="开心"
+        android:textOff="不开心"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3.尝试拖动进度条让自己开心:"
+        android:textSize="20dp"/>
+
+    <SeekBar
+        android:id="@+id/seek_b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="10"
+        android:progress="5" />
+
+</LinearLayout>

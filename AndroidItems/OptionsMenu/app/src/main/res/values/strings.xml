@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">OptionsMenu</string>
+    <string name="text_size">改变字体大小</string>
+    <string name="text_color">改变字体颜色</string>
+    <string name="text_style">改变字体风格</string>
+    <string name="text_change">改变字体粗细</string>
+    <string name="exit">退出</string>
+</resources>

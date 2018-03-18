@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.zerlin.ui_checkbox.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="簡単なsearch"
+         />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="1.喜欢:"
+            android:textSize="20sp"
+            android:layout_weight="1"/>
+
+        <CheckBox
+            android:id="@+id/cb01"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="电竞"
+            android:layout_weight="1" />
+
+        <CheckBox
+            android:id="@+id/cb02"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="false"
+            android:text="阅读"/>
+
+        <CheckBox
+            android:id="@+id/cb03"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="运动"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/True"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="全選"/>
+
+        <Button
+            android:id="@+id/False"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="全不選"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/Get"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我的愛好"/>
+
+        <TextView
+            android:id="@+id/Out"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

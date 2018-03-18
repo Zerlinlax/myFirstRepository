@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.zerlin.henntai_picking.MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/cover"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/introduce"
+        android:textSize="30sp"
+        android:background="@color/seashell"
+        android:textColor="@color/black"
+        android:gravity="bottom"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button"
+        android:background="@color/coral"
+        />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scaleType="centerCrop"
+        android:src="@drawable/blacksnowgirl"/>
+
+
+
+</LinearLayout>

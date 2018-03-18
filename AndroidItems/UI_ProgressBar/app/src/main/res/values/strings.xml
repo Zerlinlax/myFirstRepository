@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">UI_ProgressBar</string>
+    <string name="second">增加第二进度</string>
+    <string name="first">增加第一进度</string>
+</resources>
